@@ -190,13 +190,13 @@ async function signup(){
     try{
 
         const response = await fetch(
-            "https://dummyurl.com",
+            "https://c03-usa-west.integrate.boomi.com/ws/rest/testflow/testcall",
             {
                 method:"POST",
 
                 headers:{
                     "Content-Type":"application/json",
-                    "Authorization":"Basic " + btoa("test:Weaver@123")
+                    "Authorization":"Basic " + btoa("globallogic-H8FOJX.9DVSTY:40fb5763-e832-46e1-9410-d94e2d29f313")
                 },
 
                 body:JSON.stringify(payload)
